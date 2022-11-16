@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:ital,wght@1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,400;1,900&family=Quicksand:wght@400;700&family=Raleway:wght@100;300;400;500;700&display=swap');
+
+*, html, body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#trailer {
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ min-width: 100%;
+ min-height: 100%;
+}
+
+.intro {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #ffffff;
+ padding: 20px;
+ font-size: 20px;
+ font-family: 'Italiana', sans-serif;
+}
+
+#btn {
+ margin-top: 20px;
+ border: none;
+ padding: 17px;
+ color: #ffffff;
+ background-color: #000000;
+ font-weight: 800;
+ border-radius: 5%;
+ width: 150px;
+ cursor: pointer;
+}
+
+#btn:hover {
+ background-color: cadetblue;
+font-size: 18px;
+}
